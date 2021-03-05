@@ -14,6 +14,7 @@ This will avoid you having to manually locate the full path of the python interp
 
 
 #Running the unit tests
+
 All unit tests are in the same directories as the functions that they test. 
 This made it easier to import the functions
 This repository contains a few folders.
@@ -26,6 +27,7 @@ The main program should be named calc.py
 
 
 #Run the main program from the command line like so:
+
 C:\User\Example> python C:\User\path\to\calc.py
 
 
