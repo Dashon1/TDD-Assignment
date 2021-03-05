@@ -2,7 +2,9 @@
 My first attempt at test driven development
 
 #Environment
-This was developed in python version 3.9.2
+This was developed in python version 3.9.2 on Arch Linux
+The instructions to run however will be presented for windows 10
+
 Download link here - https://www.python.org/downloads/
 
 
