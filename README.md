@@ -30,7 +30,7 @@ The main program should be named calc.py
 
 C:\User\Example> python C:\User\path\to\calc.py
 
-
+Powershell or cmd should be fine.
 
 
 
