@@ -19,10 +19,13 @@ All unit tests are in the same directories as the functions that they test.
 This made it easier to import the functions
 This repository contains a few folders.
 One folder for each set of functions and unit tests, as well as screenshots of all tests passing.
-Which admittedly isn't very useful.
+
 The other folder contains all the functions minus the unit tests as well as the main program.
 The main program should be named calc.py
 
+If you are just running the unit tests go to the individual folders for the specific calculator you are wishing to test and run all the files that begin with test like so:
+
+C:\User\Example> python -m unittest C:\User\path\to\test_function.py
 
 
 
