@@ -24,8 +24,10 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
        
-    - name: Run Test
+    - name: Run BMI Test
       run: python -m unittest discover calc/bmi
+      
+    - name: Run Retirement Test
       run: python -m unittest discover calc/retirement
        
    
