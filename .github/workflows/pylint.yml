@@ -19,4 +19,6 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint `ls -R calc/ | grep .py$|xargs`
+        cd calc
+        pylint `ls`
+        cd ..
