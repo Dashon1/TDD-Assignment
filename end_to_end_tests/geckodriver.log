@@ -1,0 +1,121 @@
+1618606893558	geckodriver	INFO	geckodriver 0.19.1
+1618606893561	geckodriver	INFO	Listening on 127.0.0.1:60077
+1618606894725	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wQR1kBq24k7e"
+Gtk-Message: 16:01:35.126: Failed to load module "appmenu-gtk-module"
+1618606895374	Marionette	TRACE	Marionette enabled
+1618606895458	Marionette	TRACE	Received observer notification toplevel-window-ready
+Gtk-Message: 16:01:36.084: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 16:01:37.631: Failed to load module "appmenu-gtk-module"
+1618606897840	Marionette	TRACE	Received observer notification marionette-startup-requested
+1618606897840	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1618606897854	Marionette	TRACE	All scripts recorded.
+1618606897854	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1618606897855	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1618606897855	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1618606897855	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1618606897855	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1618606897855	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1618606897855	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1618606897856	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1618606897856	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1618606897856	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1618606897856	Marionette	DEBUG	Setting recommended pref prompts.contentPromptSubDialog to false
+1618606897856	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1618606897857	Marionette	INFO	Listening on port 33749
+1618606897858	Marionette	DEBUG	Marionette is listening
+1618606897950	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:46160
+1618606897957	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1618606897958	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:239:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+1618606955370	geckodriver	INFO	geckodriver 0.19.1
+1618606955372	geckodriver	INFO	Listening on 127.0.0.1:33713
+1618606956538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.V2U1tEalQ84P"
+Gtk-Message: 16:02:36.956: Failed to load module "appmenu-gtk-module"
+1618606957196	Marionette	TRACE	Marionette enabled
+1618606957266	Marionette	TRACE	Received observer notification toplevel-window-ready
+Gtk-Message: 16:02:37.904: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 16:02:39.406: Failed to load module "appmenu-gtk-module"
+1618606959567	Marionette	TRACE	Received observer notification marionette-startup-requested
+1618606959567	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1618606959580	Marionette	TRACE	All scripts recorded.
+1618606959580	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1618606959581	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1618606959581	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1618606959581	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1618606959581	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1618606959581	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1618606959581	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1618606959582	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1618606959582	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1618606959582	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1618606959582	Marionette	DEBUG	Setting recommended pref prompts.contentPromptSubDialog to false
+1618606959582	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1618606959584	Marionette	INFO	Listening on port 36261
+1618606959584	Marionette	DEBUG	Marionette is listening
+1618606959658	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55140
+1618606959670	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1618606959670	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:239:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+1618606977390	geckodriver	INFO	geckodriver 0.19.1
+1618606977393	geckodriver	INFO	Listening on 127.0.0.1:55211
+1618606978558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uVDLQef3LxbW"
+Gtk-Message: 16:02:58.953: Failed to load module "appmenu-gtk-module"
+1618606979191	Marionette	TRACE	Marionette enabled
+1618606979261	Marionette	TRACE	Received observer notification toplevel-window-ready
+Gtk-Message: 16:02:59.869: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 16:03:01.372: Failed to load module "appmenu-gtk-module"
+1618606981517	Marionette	TRACE	Received observer notification marionette-startup-requested
+1618606981517	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1618606981528	Marionette	TRACE	All scripts recorded.
+1618606981528	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1618606981529	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1618606981529	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1618606981529	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1618606981529	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1618606981529	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1618606981530	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1618606981530	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1618606981530	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1618606981530	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1618606981530	Marionette	DEBUG	Setting recommended pref prompts.contentPromptSubDialog to false
+1618606981530	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1618606981532	Marionette	INFO	Listening on port 42371
+1618606981532	Marionette	DEBUG	Marionette is listening
+1618606981579	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52030
+1618606981584	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1618606981584	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:239:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618607174404	geckodriver	INFO	geckodriver 0.19.1
+1618607174408	geckodriver	INFO	Listening on 127.0.0.1:51447
+1618607175583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zIClT5EIPM0y"
+Gtk-Message: 16:06:15.986: Failed to load module "appmenu-gtk-module"
+1618607176233	Marionette	TRACE	Marionette enabled
+1618607176305	Marionette	TRACE	Received observer notification toplevel-window-ready
+Gtk-Message: 16:06:16.948: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 16:06:18.489: Failed to load module "appmenu-gtk-module"
+1618607178757	Marionette	TRACE	Received observer notification marionette-startup-requested
+1618607178758	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1618607178807	Marionette	TRACE	All scripts recorded.
+1618607178807	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1618607178807	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1618607178807	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1618607178807	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1618607178808	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1618607178808	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1618607178808	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1618607178808	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1618607178808	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1618607178808	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1618607178808	Marionette	DEBUG	Setting recommended pref prompts.contentPromptSubDialog to false
+1618607178808	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1618607178809	Marionette	INFO	Listening on port 40069
+1618607178810	Marionette	DEBUG	Marionette is listening
+1618607178912	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:43372
+1618607178921	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1618607178922	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:239:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
