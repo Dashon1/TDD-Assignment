@@ -17,8 +17,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
       run: |
-        coverage report -m unittest discover unit_tests/bmi
-        coverage report -m unittest discover unit_tests/retirement
+        coverage run -m unittest discover unit_tests/bmi
+        coverage run -m unittest discover unit_tests/retirement
+        coverage report -m
       
     - name: Coveralls Upload prep
       uses: AndreMiras/coveralls-python-action@develop
