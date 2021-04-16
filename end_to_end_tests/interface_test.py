@@ -7,7 +7,9 @@ import time
 
 # initialize driver
 opts = Options()
-driver = webdriver.Chrome()
+opts.add_argument("--headless")
+opts.add_argument("--window-size=1920x1080")
+driver = webdriver.Chrome(options=opts)
 
 # open the app url
 driver.get("https://sqa-310021.uc.r.appspot.com/")
