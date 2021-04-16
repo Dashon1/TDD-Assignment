@@ -24,4 +24,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         COVERALLS_REPO_TOKEN: anol4FobJMBhkPPGi992vFqzQf7YVqAvj
 
-      run: coveralls
+      run: coveralls --service=github
