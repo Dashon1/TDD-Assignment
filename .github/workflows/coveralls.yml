@@ -19,7 +19,6 @@ jobs:
       run: |
         coverage run -m unittest discover unit_tests/bmi
         coverage run -m unittest discover unit_tests/retirement
-        coveralls
       
     - name: Coveralls Upload prep
       uses: AndreMiras/coveralls-python-action@develop
