@@ -1,4 +1,5 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["app", "deploy", "--project=SQA", "calc/app.yaml"]
+  args: ["app", "deploy", "--project=sqa-310021
+", "calc/app.yaml"]
 timeout: "1600s"
