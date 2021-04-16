@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def retirement_calc(salary, percent_saved, desired_savings):
     #convert to percentages
     convert_to_percent = "0." + str(percent_saved)

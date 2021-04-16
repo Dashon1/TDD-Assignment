@@ -1,0 +1,90 @@
+def print_result(results):
+    if (type(results) != tuple):
+        raise TypeError("Only tuples are accepted as a valid type to print")
+    else:
+        print("Your bmi is " + str(results[0]) + " that puts you in the " + str(results[1]) + " category.")
+        return ("Your bmi is " + str(results[0]) + " that puts you in the " + str(results[1]) + " category.")def print_result2(age, result):
+    years_left = 100 - age
+    phrase = ""
+
+    #if the years left is none or less than none 
+    if (years_left <= 0):
+        print("You'll be dead before you reach the desired savings goal.")
+        phrase = "You'll be dead before you reach the desired savings goal."
+        return phrase
+
+    #if they won't meet their desired savings goal in time
+    elif (years_left < result):
+        print("You'll be dead before you reach the desired savings goal.")
+        phrase = "You'll be dead before you reach the desired savings goal."
+        return phrase
+
+    #if it is possible to reach their desired savings goal return result
+    else:
+        print("You'll retire around " + str(age + result) + " when your reach your desired income.")
+        return result#!/usr/bin/env python
+
+def retirement_calc(salary, percent_saved, desired_savings):
+    #convert to percentages
+    convert_to_percent = "0." + str(percent_saved)
+
+    #savings per year
+    savings = (salary * float(convert_to_percent))
+
+    #employer matches 35% of saving
+    savings = savings + (savings * 0.35)
+
+    #number of years it will take to reach the desired goal
+    years = desired_savings / savings
+
+    return int(years)
+
+def set_age(age):
+    if ((age < 0) or (age >= 100)):
+        raise ValueError("You have to be alive in order to save money.")
+    else:
+        return Truedef set_desired_savings(amount):
+    if (amount < 0):
+        raise ValueError("Desired savings can not be negative unless you want to go into debt.")
+
+    elif (amount > 100000000000):
+        raise ValueError("Please don't attempt to save this amount. This is way too much for any one person.")
+    else:
+        return Truedef set_height_ft(feet):
+    if (feet == 0):
+        raise ValueError("You can not be 0 feet tall.")
+    elif (feet < 0):
+       raise ValueError("You can not be negative feet tall.") 
+    elif (feet >= 8):
+        raise ValueError("Highly doubt you are 8 feet tall or above.")
+    else:
+        return True
+    def set_height_in(inches):
+    if (inches < 0):
+        raise ValueError("You can not subtract from your height using negative inches.") 
+    elif (inches > 12):
+        raise ValueError("If the number of inches is can not be greater than 12. Just add 1 to your height in feet.")
+    else:
+        return True    def set_percent_saved(percent):
+    if (percent < 0):
+        raise ValueError("Percent saved can not be less than 0. I think you owe money at this point.")
+
+    elif (percent > 100):
+        raise ValueError("Percent saved can not be greater than 100. You are probably stealing if you can save more than the amount of money you recieve from your check.")
+    
+    else:
+        return Truedef set_salary(salary):
+    if (salary <= 0):
+        raise ValueError("You have to make some money in order to save anything")
+    elif (salary > 1000000000):
+        raise ValueError("If you make this much money, you don't need to worry about saving.")
+    else:
+        return Truedef set_weight(weight):
+    if (weight == 0):
+        raise ValueError("You can't weigh nothing.")
+    elif (weight < 0):
+        raise ValueError("I'm not a physicist, but I think it's impossible for a human to weigh less than nothing.")
+    elif (weight > 600):
+        raise ValueError("You can not weigh more than 600 pounds. If you weigh anywhere near this much you have bigger problems.")
+    else:
+        return True

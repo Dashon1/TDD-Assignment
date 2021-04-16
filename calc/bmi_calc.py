@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def bmi_calc(height_ft, height_in, weight):
     #calculate bmi
     height = (height_ft * 12) + height_in

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Calculator</title>
+    <script src="calculate.js"></script>
+  </head>
+  <body>
+    <header style="color:blue;font-size:22px;text-indent: 150px;">
+      BMI &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Retirement
+    </header>
+      <div style="float:left; margin-right: 50px;">
+            Height in Feet: <input type="text" id="feet" value="Enter you height in feet"><br>
+            Height in Inches: <input type="text" id="inches" value="Enter your height in inches"><br><br>
+            Weight in Pounds: <input type="text" id="feet" value="Enter you height in feet"><br><br>
+        <br><br>
+        Answer: <input type="text" id="bmi_ans" value="Your Result"><br><br>
+        <button id="bmi_calc" onclick="calculateBMI()">Calculate</button>
+      </div>
+
+      <div>
+            Salary: <input type="text" id="salary" value="Enter you current salary"><br>
+            Percent Saved: <input type="text" id="percent_saved" size="30"  value="Enter the percentage of your income you save"><br><br>
+            Desired Savings: <input type="text" id="des_saved" size="30" value="Enter the amount you want to have saved"><br><br>
+        Answer: <input type="text" id="ret_ans" value="Your Result"><br><br>
+        <button id="bmi_calc" onclick="calculateBMI()">Calculate</button>
+      </div>
+      <div class="clearfix"></div>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>

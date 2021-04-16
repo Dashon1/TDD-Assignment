@@ -1,0 +1,11 @@
+.calculator_main {
+    margin: auto;
+}
+.calculator_child {
+    width:50%;
+    float: left;
+    padding: 20px;
+}
+.clearfix {
+    clear:both;
+}
