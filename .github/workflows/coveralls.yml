@@ -12,10 +12,6 @@ jobs:
       run: pip install coveralls coverage PyYAML
       
     - name: Run Coveralls
-      env: 
-        COVERALLS_SERVICE_NAME: github
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
       run: |
         coverage run -m unittest discover unit_tests/bmi
         coverage run -m unittest discover unit_tests/retirement
@@ -23,16 +19,7 @@ jobs:
         coverage html
       
     - name: Coveralls Upload prep
-      uses: AndreMiras/coveralls-python-action@develop
-      with:
-        parallel: true
-        flag-name: Unit Test
-
-  coveralls_finish:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-    - name: Coveralls Finished
-      uses: AndreMiras/coveralls-python-action@develop
-      with:
-        parallel-finished: true
+      env: 
+        COVERALLS_SERVICE_NAME: github
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: coveralls
